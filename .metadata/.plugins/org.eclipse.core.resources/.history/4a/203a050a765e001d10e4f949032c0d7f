@@ -1,0 +1,29 @@
+package Ejercicio;
+
+import java.util.Scanner;
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+
+Scanner teclado = new Scanner(System.in);
+
+//Variables
+String frase;
+int contador, caracteres, cbucle;
+
+//Inicializar variables
+contador=0;
+cbucle=0;
+
+//Programa
+System.out.println("Escribe la frase");
+frase = teclado.next();
+caracteres=frase.length();
+while (cbucle<=caracteres)
+if(Character.isUpperCase(frase.charAt(contador))) {
+contador++;}
+cbucle++;
+
+System.out.println(contador);
+	}
+}

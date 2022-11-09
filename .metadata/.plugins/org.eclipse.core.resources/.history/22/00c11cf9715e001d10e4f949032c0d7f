@@ -1,0 +1,24 @@
+package Ejercicio;
+
+import java.util.Scanner;
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+
+Scanner teclado = new Scanner(System.in);
+
+//Variables
+String frase;
+int contador;
+
+//Inicializar variables
+contador=0;
+
+//Programa
+System.out.println("Escribe la frase");
+frase.length();
+frase = teclado.next();
+if(Character.isUpperCase(frase.charAt(contador)));
+	
+	}
+}

@@ -1,0 +1,45 @@
+package Ejercicio;
+
+import java.util.Scanner;
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+
+Scanner teclado = new Scanner(System.in);
+
+//Variables
+String frase;
+int mayus, minus, num, contador, longitud, cbucle;
+
+//Inicializar variables
+mayus = 0;
+minus = 0;
+num = 0;
+contador = 0;
+cbucle = 0;
+
+System.out.println ("Escribe una frase");
+frase = teclado.nextLine();
+longitud = frase.length();
+frase.toCharArray();
+while (cbucle <= longitud) {
+frase.toCharArray();
+char f1 = frase.charAt(contador);
+if (f1 >= 1 && f1 <= 9) {
+	num++;}
+	else {
+		if (f1 >= 'A' && f1 <= 'Z') {
+			mayus++;}
+			else {
+				if (f1 >= 'a' && f1 <= 'z') {
+				minus++;}
+	}
+}
+contador++;
+cbucle++;
+}
+System.out.println("Mayusculas " + mayus);
+System.out.println("Minusculas " + minus);
+System.out.println("Numeros " + num);
+	}
+}

@@ -1,0 +1,27 @@
+package Ejercicio;
+
+import java.util.Scanner;
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+
+Scanner teclado = new Scanner(System.in);
+
+//Variables
+String frase;
+int longitud, validar;
+char controlador;
+
+//Inicializar variables
+validar = 0;
+
+
+while (validar == 0) {
+frase = teclado.nextLine();
+longitud = frase.length();
+System.out.println(longitud);
+
+}
+
+	}
+}

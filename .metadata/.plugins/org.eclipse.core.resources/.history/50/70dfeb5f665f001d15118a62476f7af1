@@ -1,0 +1,42 @@
+package Ejercicio;
+
+import java.util.Scanner;
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+
+Scanner teclado = new Scanner(System.in);
+
+//Variables
+String frase;
+int longitud, validar,longitud_acept,aument_long;
+char control;
+
+//Inicializar variables
+validar = 0;
+longitud_acept = 0;
+aument_long = 0;
+
+
+while (validar == 0) {
+	System.out.println(validar);
+	System.out.println("Escribe el codigo");
+	frase = teclado.nextLine();
+	longitud = frase.length();
+	while (longitud == longitud_acept) {
+		while (aument_long <= 4) {
+		control = frase.charAt(aument_long);
+		if (control >= '0' && control <= '9') {
+			aument_long ++;
+			System.out.println(control);
+		}
+		else {
+			validar ++;
+		}
+		}
+		
+	}
+
+}
+	}
+}

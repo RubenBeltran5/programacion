@@ -1,0 +1,14 @@
+package Ejercicio;
+
+import java.util.Scanner;
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+
+Scanner teclado = new Scanner(System.in);
+
+int value_int = 65;
+char value_char  = (char) value_int;
+System.out.println(value_char);
+	}
+}
